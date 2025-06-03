@@ -1,0 +1,70 @@
+@font-face {
+    font-family: cartoon;
+    src: url("../odin_eas/OPTIRondo-Bold.otf");
+}
+.container {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    align-items: center;
+    justify-content: center;
+    background-color: #ee272a;
+    border-radius: 10px;
+}
+body {
+    background-color: #000000;
+}
+h1 {
+    color: #fae4b9;
+    font-family: cartoon;
+    text-align: center;
+    font-size: 3em;
+}
+#color-picker {
+    width: 100px;
+    height: 100px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    border: none;
+    color: aliceblue;
+}
+#color-picker::-webkit-color-swatch {
+    border-radius: 100%;
+    border: none;
+  }
+
+
+#grid-size {
+    all: unset;
+    background-color: white;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    color: #000000;
+    font-family: cartoon;
+    font-size: 30px;
+    font-weight: bolder;
+}
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+p {
+    font-family: cartoon;
+    color: #fae4b9;
+}
+dir {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
